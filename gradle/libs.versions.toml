@@ -1,0 +1,6 @@
+[versions]
+junit-jupiter = "5.11.3"
+
+[libraries]
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
+junit-platform = { module = "org.junit.platform:junit-platform-launcher"}
