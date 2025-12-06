@@ -1,4 +1,4 @@
-package org.example;
+package com.ravcube.core.example;
 
 public class Library {
     public boolean someLibraryMethod() {

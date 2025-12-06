@@ -1,0 +1,19 @@
+plugins {
+    id 'java-library'
+}
+
+subprojects { proj ->
+
+    repositories {
+        mavenCentral()
+    }
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(21)
+        }
+    }
+
+    def baseGroup = "com.ravcube"
+    group = "$baseGroup.${proj.name}"
+}

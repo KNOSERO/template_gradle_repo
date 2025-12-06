@@ -4,4 +4,4 @@ plugins {
 
 rootProject.name = 'template_gradle_repo'
 
-include('module:core')
+include('core:example')
